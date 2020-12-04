@@ -15,7 +15,8 @@ def consolidate_cart(cart)
   receipt = []
 
   cart.each do |grocery_thing|
-    if grocery_thing[:item] 
+    item_name = 
+    
      
   end
 end
