@@ -15,7 +15,8 @@ def consolidate_cart(cart)
   receipt = []
 
   cart.each do |grocery_thing|
-    item_name = 
+    receipt_item = find_item_by_name_in_collectio(grocery_thing[:item],receipt)
+    
     
      
   end
