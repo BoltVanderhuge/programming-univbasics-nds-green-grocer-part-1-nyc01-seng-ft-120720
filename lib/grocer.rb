@@ -18,7 +18,8 @@ def consolidate_cart(cart)
     receipt_item = find_item_by_name_in_collection(grocery_thing[:item],receipt)
     if receipt_item == nil 
       grocery_thing[:count] = 1
-    receipt
+      receipt << grocery_thing
+    else grocery_thing[:count] +=1
      
   end
 end
