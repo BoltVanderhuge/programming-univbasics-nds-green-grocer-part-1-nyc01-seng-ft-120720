@@ -20,7 +20,7 @@ def consolidate_cart(cart)
       grocery_thing[:count] = 1
       receipt << grocery_thing
     else grocery_thing[:count] +=1
-     
+   end
   end
 end
 
